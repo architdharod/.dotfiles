@@ -6,6 +6,8 @@ install_stow_macos() {
     echo "Detected macOS."
     echo "Installing GNU Stow with Homebrew..."
     brew install stow
+    echo "Installing ripgrep for nvim"
+    brew install ripgrep
 }
 
 # Function to install GNU Stow on Debian/Ubuntu-based systems
@@ -13,12 +15,16 @@ install_stow_debian() {
     echo "Detected Debian/Ubuntu-based Linux."
     sudo apt-get update
     sudo apt-get install -y stow
+    echo "Installing ripgrep for nvim"
+    sudo apt-get install -y ripgrep
 }
 
 # Function to install GNU Stow on Red Hat-based systems (if needed)
 install_stow_redhat() {
     echo "Detected Red Hat-based Linux."
     sudo yum install -y stow
+    echo "Installing ripgrep for nvim"
+    sudo yum install -y ripgrep
 }
 
 # Detect operating system and install GNU Stow accordingly
