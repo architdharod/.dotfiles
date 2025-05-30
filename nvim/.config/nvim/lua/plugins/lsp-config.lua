@@ -10,7 +10,7 @@ return {
 		config = function()
 			require("mason-lspconfig").setup({
 				-- run ":help lspconfig-all" to see list of all the lsp names etc
-				ensure_installed = { "gopls", "lua_ls", "html", "jsonls", "tsserver", "rust_analyzer", "astro", "sqlls", "pyright" },
+				ensure_installed = { "gopls", "lua_ls", "html", "jsonls", "tsserver", "rust_analyzer", "astro", "sqlls", "pyright", "terraformls", "tflint"},
 			})
 		end,
 	},
@@ -31,6 +31,8 @@ return {
 			lspconfig.sqlls.setup({ capabilities = capabilities })
 			lspconfig.gopls.setup({ capabilities = capabilities })
 			lspconfig.pyright.setup({ capabilities = capabilities })
+			lspconfig.terraformls.setup({ capabilities = capabilities })
+			lspconfig.tflint.setup({ capabilities = capabilities })
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
