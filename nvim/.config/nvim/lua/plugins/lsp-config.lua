@@ -10,7 +10,7 @@ return {
 		config = function()
 			require("mason-lspconfig").setup({
 				-- run ":help lspconfig-all" to see list of all the lsp names etc
-				ensure_installed = { "gopls", "lua_ls", "html", "jsonls", "tsserver", "rust_analyzer", "astro", "sqlls", "pyright", "terraformls", "tflint"},
+				ensure_installed = { "gopls", "lua_ls", "html", "jsonls", "ts_ls", "rust_analyzer", "astro", "sqlls", "pyright", "terraformls", "tflint"},
 			})
 		end,
 	},
@@ -26,7 +26,7 @@ return {
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.jsonls.setup({ capabilities = capabilities })
 			lspconfig.astro.setup({ capabilities = capabilities })
-			lspconfig.tsserver.setup({ capabilities = capabilities })
+			lspconfig.ts_ls.setup({ capabilities = capabilities })
 			lspconfig.rust_analyzer.setup({ capabilities = capabilities })
 			lspconfig.sqlls.setup({ capabilities = capabilities })
 			lspconfig.gopls.setup({ capabilities = capabilities })
