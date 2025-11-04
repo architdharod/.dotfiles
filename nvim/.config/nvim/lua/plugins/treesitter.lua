@@ -8,6 +8,10 @@ return {
       auto_install = true,
       ensure_installed = { "lua", "c", "vim", "vimdoc", "query", "javascript", "html", "typescript", "astro", "go", "python" },
       indent = { enable = true },
+      highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = false,
+      },
     })
   end,
 }
