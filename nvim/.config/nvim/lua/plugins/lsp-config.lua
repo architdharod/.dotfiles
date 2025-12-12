@@ -57,7 +57,26 @@ return {
 		--		lazy = false,
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			local lspconfig = require("lspconfig")
+			-- local lspconfig = require("lspconfig")
+			--
+			local config = vim.lsp.config
+			config("html", { capabilities = capabilities })
+			config("lua_ls", { capabilities = capabilities })
+			config("jsonls", { capabilities = capabilities })
+			config("astro", { capabilities = capabilities })
+			config("ts_ls", { capabilities = capabilities })
+			config("rust_analyzer", { capabilities = capabilities })
+			config("sqlls", { capabilities = capabilities })
+			config("gopls", { capabilities = capabilities })
+			config("pyright", {
+				--on_attach = on_attach,
+				capabilities = capabilities,
+				filetypes = { "python" },
+			})
+			config("terraformls", { capabilities = capabilities })
+			config("tailwindcss", { capabilities = capabilities })
+			--[[
+--			local config = vim.lsp.config
 			lspconfig.html.setup({ capabilities = capabilities })
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.jsonls.setup({ capabilities = capabilities })
@@ -74,7 +93,9 @@ return {
 			lspconfig.terraformls.setup({ capabilities = capabilities })
 			--lspconfig.tflint.setup({ capabilities = capabilities })
 			lspconfig.tailwindcss.setup({ capabilities = capabilities })
+            */
 
+--]]
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
 			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})

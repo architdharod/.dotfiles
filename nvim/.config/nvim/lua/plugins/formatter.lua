@@ -12,6 +12,18 @@ return {
 		}
 
 		conform.setup({
+			formatters = {
+				prettier = {
+					command = require("conform.util").find_executable({
+						"node_modules/.bin/prettier",
+					}, "prettier"),
+					cwd = require("conform.util").root_file({
+						"package.json",
+						"prettier.config.js",
+						".prettierrc",
+					}),
+				},
+			},
 			formatters_by_ft = {
 				javascript = { "prettier" },
 				typescript = { "prettier" },
