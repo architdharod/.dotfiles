@@ -19,10 +19,10 @@ vim.keymap.set("n", "<leader>v", ":vs<CR>", {})
 vim.keymap.set("n", "<leader>h", ":sp<CR>", {})
 
 -- Resize buffers with arrows
-vim.keymap.set("n", "<C-Up>", ":resize +2<CR>", {})
-vim.keymap.set("n", "<C-Down>", ":resize -2<CR>", {})
-vim.keymap.set("n", "<C-Left>", ":vertical resize -2<CR>", {})
-vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>", {})
+vim.keymap.set("n", "<C-Up>", ":resize +15<CR>", {})
+vim.keymap.set("n", "<C-Down>", ":resize -15<CR>", {})
+vim.keymap.set("n", "<C-Left>", ":vertical resize -15<CR>", {})
+vim.keymap.set("n", "<C-Right>", ":vertical resize +15<CR>", {})
 
 -- highlight text on Yank
 vim.api.nvim_create_autocmd("TextYankPost", {
