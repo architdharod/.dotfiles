@@ -14,9 +14,11 @@ install_stow_macos() {
 install_stow_debian() {
     echo "Detected Debian/Ubuntu-based Linux."
     sudo apt-get update
-    sudo apt-get install -y stow
-    echo "Installing ripgrep for nvim"
-    sudo apt-get install -y ripgrep
+    sudo apt-get install -y stow ripgrep \
+        i3 polybar rofi dunst picom feh flameshot \
+        kitty pamixer pavucontrol \
+        fonts-jetbrains-mono \
+        network-manager imagemagick
 }
 
 # Function to install GNU Stow on Red Hat-based systems (if needed)
@@ -53,7 +55,31 @@ if [ -f "$FILE" ]; then
   rm ~/.tmux.conf
 fi
 
-echo "Stowing .tmux.conf"
+echo "Stowing tmux"
 stow -v tmux
+
+echo "Stowing i3 stack"
+for pkg in i3 polybar rofi dunst picom kitty; do
+    stow -v "$pkg"
+done
+
+# Install JetBrainsMono Nerd Font if not present
+if ! fc-list | grep -qi "JetBrainsMono Nerd Font"; then
+    echo "Installing JetBrainsMono Nerd Font..."
+    mkdir -p ~/.local/share/fonts
+    tmp=$(mktemp -d)
+    curl -fsSL "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz" \
+        -o "$tmp/JetBrainsMono.tar.xz"
+    tar -xf "$tmp/JetBrainsMono.tar.xz" -C ~/.local/share/fonts
+    fc-cache -fv
+    rm -rf "$tmp"
+fi
+
+chmod +x ~/.config/polybar/launch.sh
+
+# Solid dark wallpaper fallback — replace ~/.config/i3/wallpaper.jpg with your own
+if [ ! -f ~/.config/i3/wallpaper.jpg ] && command -v convert &>/dev/null; then
+    convert -size 1920x1080 xc:#1a1b26 ~/.config/i3/wallpaper.jpg
+fi
 
 echo "Dotfiles successfully stowed!"
