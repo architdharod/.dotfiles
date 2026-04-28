@@ -63,24 +63,15 @@ for pkg in i3 polybar rofi dunst picom kitty; do
     stow -v "$pkg"
 done
 
-echo "Stowing claude-skills"
-# Pre-create ~/.config/opencode so stow descends into it and only symlinks
-# skills/ — other files (bun.lock, package.json, ...) must stay as-is.
-mkdir -p ~/.config/opencode
-if [ -e ~/.config/opencode/skills ] && [ ! -L ~/.config/opencode/skills ]; then
-    echo "Skipping: ~/.config/opencode/skills exists as a real directory."
+echo "Stowing claude-skills into ~/.claude/skills"
+# ~/.claude is a real directory managed by Claude Code (sessions, history, etc.),
+# so pre-create it to make stow descend into it and only symlink skills/.
+mkdir -p ~/.claude
+if [ -e ~/.claude/skills ] && [ ! -L ~/.claude/skills ]; then
+    echo "Skipping: ~/.claude/skills exists as a real directory."
     echo "  Move or remove it, then re-run, to stow claude-skills."
 else
-    stow -v claude-skills
-fi
-
-# Mirror skills into ~/.claude/skills so Claude Code picks them up.
-mkdir -p ~/.claude
-if [ -d ~/.claude/skills ] && [ ! -L ~/.claude/skills ]; then
-    echo "Skipping: ~/.claude/skills exists as a real directory."
-    echo "  Move or remove it to link it to ~/.config/opencode/skills."
-else
-    ln -sfn ~/.config/opencode/skills ~/.claude/skills
+    stow -v -t ~ claude-skills
 fi
 
 # Install JetBrainsMono Nerd Font if not present
