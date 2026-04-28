@@ -75,6 +75,20 @@ return {
 			})
 			config("terraformls", { capabilities = capabilities })
 			config("tailwindcss", { capabilities = capabilities })
+
+			-- Enable all configured LSP servers
+			vim.lsp.enable("html")
+			vim.lsp.enable("lua_ls")
+			vim.lsp.enable("jsonls")
+			vim.lsp.enable("astro")
+			vim.lsp.enable("ts_ls")
+			vim.lsp.enable("rust_analyzer")
+			vim.lsp.enable("sqlls")
+			vim.lsp.enable("gopls")
+			vim.lsp.enable("pyright")
+			vim.lsp.enable("terraformls")
+			vim.lsp.enable("tailwindcss")
+
 			--[[
 --			local config = vim.lsp.config
 			lspconfig.html.setup({ capabilities = capabilities })
