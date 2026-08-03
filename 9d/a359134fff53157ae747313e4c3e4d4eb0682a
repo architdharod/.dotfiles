@@ -1,0 +1,21 @@
+claude-skills/.config/opencode/skills/humanizer/LICENSE
+  s_4a5e3a7b805ff4::t_c6059d486bd5da 1-21
+claude-skills/.config/opencode/skills/humanizer/SKILL.md
+  s_4a5e3a7b805ff4::t_6c8158a7fd15c4 1-412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "9da359134fff53157ae747313e4c3e4d4eb0682a",
+  "prompts": {},
+  "sessions": {
+    "s_4a5e3a7b805ff4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2ec81f2e-90a2-4342-82ba-846ad62b8805",
+        "model": "claude-opus-5"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
