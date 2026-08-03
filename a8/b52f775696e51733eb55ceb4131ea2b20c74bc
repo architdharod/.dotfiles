@@ -1,0 +1,66 @@
+.gitignore
+  s_4a5e3a7b805ff4::t_01465ab0f44556 1
+hunk/.config/hunk/config.toml
+  s_089c82a3a27e00::t_f3ea2f7a817cc8 1-12,14
+  s_089c82a3a27e00::t_dc010be7cb0951 13
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/README.md
+  s_df27a7e2846806::t_320afddb7bdf99 1-157
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/SKILL.md
+  s_df27a7e2846806::t_78821dab20d8bd 1-93
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/elements-of-style/01-introductory.md
+  s_df27a7e2846806::t_c45a972f7bd339 1-3
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/elements-of-style/02-elementary-rules-of-usage.md
+  s_df27a7e2846806::t_979c9157b9a593 1-214
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/elements-of-style/03-elementary-principles-of-composition.md
+  s_df27a7e2846806::t_809ac1be23a6c6 1-398
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/elements-of-style/04-a-few-matters-of-form.md
+  s_df27a7e2846806::t_1088449a29ad35 1-89
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/elements-of-style/05-words-and-expressions-commonly-misused.md
+  s_df27a7e2846806::t_45520bd647e279 1-348
+claude-skills/.config/opencode/skills/writing-clearly-and-concisely/signs-of-ai-writing.md
+  s_df27a7e2846806::t_b6654aea49b224 1-901
+claude-skills/.config/opencode/skills/hunk-review
+  s_df27a7e2846806::t_0bae4163fce00a 1
+claude-skills/.config/opencode/skills/improve-codebase-architecture/DEEPENING.md
+  s_df27a7e2846806::t_4ab123bc1fea26 1-37
+claude-skills/.config/opencode/skills/improve-codebase-architecture/HTML-REPORT.md
+  s_df27a7e2846806::t_49c0c15bee15aa 1-123
+claude-skills/.config/opencode/skills/improve-codebase-architecture/INTERFACE-DESIGN.md
+  s_df27a7e2846806::t_6583553a7e446e 1-44
+claude-skills/.config/opencode/skills/improve-codebase-architecture/LANGUAGE.md
+  s_df27a7e2846806::t_641fd886c220e3 1-53
+claude-skills/.config/opencode/skills/improve-codebase-architecture/SKILL.md
+  s_df27a7e2846806::t_7d650a5ef42b47 1-81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "a8b52f775696e51733eb55ceb4131ea2b20c74bc",
+  "prompts": {},
+  "sessions": {
+    "s_089c82a3a27e00": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e8a5a9bd-3e4f-4cae-8e98-243eede41adf",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    },
+    "s_4a5e3a7b805ff4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2ec81f2e-90a2-4342-82ba-846ad62b8805",
+        "model": "claude-opus-5"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    },
+    "s_df27a7e2846806": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7680e838-e501-4e86-ac61-f87e05e8d38d",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
