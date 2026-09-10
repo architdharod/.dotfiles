@@ -1,0 +1,29 @@
+claude-skills/.config/opencode/skills/bro/SKILL.md
+  s_3af99184c3c7b6::t_18a6806ed80108 1-21
+claude-skills/.config/opencode/skills/wayfinder/SKILL.md
+  s_67dc546f768acb::t_58ee80154c7893 1-128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "412f2a641e334fd8a7f6d6723716796e58b59949",
+  "prompts": {},
+  "sessions": {
+    "s_3af99184c3c7b6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e63f315a-7221-4e0e-98db-b873f105acad",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    },
+    "s_67dc546f768acb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b154cc2f-c50d-481b-b057-0d5b41d1dbb2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
