@@ -1,0 +1,25 @@
+claude-skills/.config/opencode/skills/final-code-review-v1/SKILL.md
+  s_d947c6e5c43fe8::t_aa154d6646689c 36-40
+claude-skills/.config/opencode/skills/final-code-review-v1/prompts/report-format.md
+  s_d947c6e5c43fe8::t_4a1ea75d9fb5f9 15-27
+claude-skills/.config/opencode/skills/final-code-review-v1/prompts/verifier-agent.md
+  s_d947c6e5c43fe8::t_b4949195ad87e8 18-23,40-42
+claude-skills/.config/opencode/skills/final-code-review-v1/scripts/assemble-report.py
+  s_d947c6e5c43fe8::t_bad18a0fc5d57f 49-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9def0f94c39f8aeda2a770197ddc64d41c5fbc88",
+  "prompts": {},
+  "sessions": {
+    "s_d947c6e5c43fe8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "13042735-c07f-411f-a692-30c25985d154",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
