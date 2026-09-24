@@ -1,0 +1,16 @@
+nvim/.config/nvim/lua/plugins/lsp-config.lua
+  h_2dddd97a32d599 13,33
+nvim/.config/nvim/lua/plugins/neo-tree.lua
+  h_2dddd97a32d599 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dbc2da8565fdf88d8e90bf74343505d9883e1416",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
