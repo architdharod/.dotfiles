@@ -1,0 +1,16 @@
+nvim/.config/nvim/lazy-lock.json
+  h_2dddd97a32d599 27
+nvim/.config/nvim/lua/plugins/smear.lua
+  h_2dddd97a32d599 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3306f3313591d14147441bf6527e16b61073f0fc",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
