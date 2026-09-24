@@ -1,0 +1,28 @@
+claude-skills/.config/opencode/skills/final-code-review-v1/SKILL.md
+  s_09f52221be3499::t_5a4ef3fa5ba414 29
+  s_09f52221be3499::t_e96783b58e1f8c 24-25
+claude-skills/.config/opencode/skills/final-code-review-v1/prompts/report-format.md
+  s_09f52221be3499::t_8f58e69268a645 33
+claude-skills/.config/opencode/skills/final-code-review-v1/scripts/assemble-report.py
+  s_09f52221be3499::t_cd375441b7b150 15,21-25,28-29,38-40
+claude-skills/.config/opencode/skills/final-code-review-v1/scripts/merge-findings.py
+  s_09f52221be3499::t_fe41801e62c3c4 22
+claude-skills/.config/opencode/skills/final-code-review-v1/scripts/prepare-review.sh
+  s_09f52221be3499::t_cbd04daa9e6ff2 27-29,32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0221151901b49cea40868299f84e2f7091cb6967",
+  "prompts": {},
+  "sessions": {
+    "s_09f52221be3499": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7708bd0a-08c5-4a6e-8b3f-963abb8d33fe",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
