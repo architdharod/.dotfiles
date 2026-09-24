@@ -2,7 +2,7 @@
 name: duplicated-logic
 family: Structure
 tags: [any]
-evidence: 23 accepted ePort threads
+evidence: 23
 ---
 # The same logic lives in two places
 
@@ -54,5 +54,5 @@ The same non-trivial logic exists in two places, or a new helper re-implements o
 - magic-values: a lone literal without a name; here it is a copied set of them.
 
 ## Sources
-- ePort: !32 !46 !50 !53 !54 !56 !131 !155 !156 !161 !193 !231 !232 !256 !258 !290 !291
+- review threads: 23 accepted change requests from real code reviews
 - code-reviewer skill: DRY; Fowler, Refactoring: duplicated code; A Philosophy of Software Design ch. 9 (repetition)

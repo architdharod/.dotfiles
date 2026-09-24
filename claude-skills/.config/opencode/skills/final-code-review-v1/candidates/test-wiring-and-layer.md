@@ -2,7 +2,7 @@
 name: test-wiring-and-layer
 family: Tests
 tags: [any]
-evidence: 9 accepted ePort threads
+evidence: 9
 ---
 # Test wiring and layer
 
@@ -52,5 +52,5 @@ A unit is tested but its call site is not, or tests run at a layer without asser
 - e2e-selectors: how end-to-end tests locate elements.
 
 ## Sources
-- ePort: !144 !259 !274 !280 !288 !289 !293
+- review threads: 9 accepted change requests from real code reviews
 - other sources: none

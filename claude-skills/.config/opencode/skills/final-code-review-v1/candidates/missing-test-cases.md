@@ -2,7 +2,7 @@
 name: missing-test-cases
 family: Tests
 tags: [tests]
-evidence: 24 accepted ePort threads
+evidence: 24
 ---
 # Decisions that ship with no test to catch their removal
 
@@ -61,5 +61,5 @@ A decision, guard, boundary, or closed-set member ships with no test that fails 
 - state-transition-integrity: whether a guard is correct. Here, whether it is tested.
 
 ## Sources
-- ePort: !43 !45 !54 !74 !85 !147 !161 !172 !185 !230 !241 !259 !261 !268 !274 !280 !288 !289 !298
-- ePort threads only; no book or skill source
+- review threads: 24 accepted change requests from real code reviews
+- real review threads only

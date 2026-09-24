@@ -2,7 +2,7 @@
 name: query-cache-and-keys
 family: Frontend
 tags: [web]
-evidence: 10 accepted ePort threads
+evidence: 10
 ---
 # Query cache options and keys
 
@@ -56,5 +56,5 @@ Query keys, staleness, refetch, invalidation, and shared option factories set wi
 - performance: over-broad subscriptions and re-renders. Here: refetch and cache policy.
 
 ## Sources
-- ePort: !32 !36 !79 !81 !232 !298
+- review threads: 10 accepted change requests from real code reviews
 - TanStack Query docs: important defaults, query keys, query invalidation, prefetching

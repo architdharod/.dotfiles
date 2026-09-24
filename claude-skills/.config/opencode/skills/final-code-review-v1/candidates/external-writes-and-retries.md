@@ -2,7 +2,7 @@
 name: external-writes-and-retries
 family: Correctness
 tags: [api, web, db]
-evidence: 7 accepted ePort threads
+evidence: 7
 ---
 # External writes, retries, and idempotency
 
@@ -55,5 +55,5 @@ Non-idempotent external writes a client can retry, dedup that misses a source, f
 - error-messages-and-codes: which status or code is sent.
 
 ## Sources
-- ePort: !46 !71 !85 !129 !259
+- review threads: 7 accepted change requests from real code reviews
 - other: none

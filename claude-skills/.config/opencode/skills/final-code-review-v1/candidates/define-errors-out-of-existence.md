@@ -2,7 +2,7 @@
 name: define-errors-out-of-existence
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads (seed only)
+evidence: 0
 ---
 # Errors the API could define away
 
@@ -52,5 +52,5 @@ An error is thrown or returned for a case the API could define away, so callers 
 - error-messages-and-codes: the wrong message or code for a real error.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design ch. 10 (define errors out of existence)

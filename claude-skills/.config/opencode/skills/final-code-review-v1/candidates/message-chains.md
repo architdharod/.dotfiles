@@ -2,7 +2,7 @@
 name: message-chains
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads (seed only)
+evidence: 0
 ---
 # Code that walks a chain to reach a value
 
@@ -51,5 +51,5 @@ Code walks a chain of objects or optional fields to reach a value, so it depends
 - absence-conflation: when the optional links hide real absences.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - refactoring.guru: message chains; Fowler, Refactoring: hide delegate

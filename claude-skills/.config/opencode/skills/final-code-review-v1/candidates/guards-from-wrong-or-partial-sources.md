@@ -2,7 +2,7 @@
 name: guards-from-wrong-or-partial-sources
 family: Correctness
 tags: [api, web]
-evidence: 17 accepted ePort threads
+evidence: 17
 ---
 # Guards built from the wrong or a partial source
 
@@ -58,5 +58,5 @@ A guard or derived state reads a proxy fact or only some sources, or runs where 
 - closed-set-exhaustiveness: an assumed relation between sets. Here: a guard that reads a proxy for one fact.
 
 ## Sources
-- ePort: !32 !41 !52 !75 !81 !127 !157 !216 !240 !259 !261 !283 !290
+- review threads: 17 accepted change requests from real code reviews
 - other: none

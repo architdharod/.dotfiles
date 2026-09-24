@@ -2,7 +2,7 @@
 name: closed-set-exhaustiveness
 family: Structure
 tags: [any]
-evidence: 6 accepted ePort threads
+evidence: 6
 ---
 # Closed sets, exhaustiveness, and unenforced invariants
 
@@ -54,5 +54,5 @@ Maps and branches over a closed set that compile with a member missing; assumed 
 - validation-boundaries: where input is normalized. Here: code assuming a normalization nothing did.
 
 ## Sources
-- ePort: !90 !161 !216 !256 !288
+- review threads: 6 accepted change requests from real code reviews
 - other: none

@@ -2,7 +2,7 @@
 name: reinvented-library-feature
 family: Structure
 tags: [web, shared-ui, api]
-evidence: 10 accepted ePort threads
+evidence: 10
 ---
 # Reinvented library feature
 
@@ -56,5 +56,5 @@ A UI primitive or library feature hand-built, worked around, miscomposed, or cop
 - text-disagrees-with-code: a copy described as stock when it is not is reported here, not there.
 
 ## Sources
-- ePort: !41 !45 !131 !161 !216 !240 !242 !280
+- review threads: 10 accepted change requests from real code reviews
 - other: none

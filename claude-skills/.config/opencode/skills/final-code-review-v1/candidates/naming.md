@@ -2,7 +2,7 @@
 name: naming
 family: Structure
 tags: [any]
-evidence: 25 accepted ePort threads
+evidence: 25
 ---
 # Names that mislead, collide, or break the pattern
 
@@ -61,5 +61,5 @@ Names that collide, mislead, overclaim or underclaim, say only the type, abbrevi
 - project-rule-conformance: naming rules the repo states itself.
 
 ## Sources
-- ePort: !32 !41 !45 !46 !50 !52 !54 !67 !75 !79 !85 !101 !155 !157 !161 !183 !233 !259 !271 !274 !291
+- review threads: 25 accepted change requests from real code reviews
 - A Philosophy of Software Design, ch. 14 (choosing names)

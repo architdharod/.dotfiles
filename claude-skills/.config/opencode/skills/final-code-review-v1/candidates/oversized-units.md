@@ -2,7 +2,7 @@
 name: oversized-units
 family: Structure
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Functions and files that outgrow their shape
 
@@ -56,5 +56,5 @@ A function or file grows past a healthy size while a clean split into smaller un
 - project-rule-conformance: size limits the repo states itself.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - thermo-nuclear-code-quality-review skill (1k-line rule); Fowler, Refactoring (long function, large class)

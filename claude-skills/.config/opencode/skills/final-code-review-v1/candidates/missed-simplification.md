@@ -2,7 +2,7 @@
 name: missed-simplification
 family: Structure
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Missed simplification
 
@@ -55,6 +55,6 @@ A reframing exists that deletes whole branches, modes, flags, layers, or state w
 - define-errors-out-of-existence: the same move applied to error cases.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - thermo-nuclear-code-quality-review skill: code judo
 - A Philosophy of Software Design, ch. 3 (strategic programming) and ch. 16 (modifying existing code)

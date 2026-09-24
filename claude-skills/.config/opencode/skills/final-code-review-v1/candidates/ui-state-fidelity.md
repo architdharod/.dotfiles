@@ -2,7 +2,7 @@
 name: ui-state-fidelity
 family: Frontend
 tags: [web, shared-ui]
-evidence: 10 accepted ePort threads
+evidence: 10
 ---
 # UI state fidelity
 
@@ -60,5 +60,5 @@ What the user sees does not match the state: labels, empty states, duplicates, s
 - scope-and-requirements: deferrals in general. A deferred user-facing defect on the main path is reported here.
 
 ## Sources
-- ePort: !41 !43 !44 !98 !105 !183 !185 !193 !244
+- review threads: 10 accepted change requests from real code reviews
 - other: none

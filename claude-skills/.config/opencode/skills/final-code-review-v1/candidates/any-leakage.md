@@ -2,7 +2,7 @@
 name: any-leakage
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # any leakage
 
@@ -57,5 +57,5 @@ any or un-narrowed unknown in signatures, fields, or state, so type errors move 
 - test-fixtures-and-setup: fixture shape. any in a fixture is reported here.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Effective TypeScript: limit any, narrowest scope for any, precise variants of any, hide unsafe casts in well-typed functions, evolving any, prefer unknown to any, type coverage

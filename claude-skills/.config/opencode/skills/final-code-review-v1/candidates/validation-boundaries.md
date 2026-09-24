@@ -2,7 +2,7 @@
 name: validation-boundaries
 family: Correctness
 tags: [api, web, schemas]
-evidence: 15 accepted ePort threads
+evidence: 15
 ---
 # Validation boundaries
 
@@ -59,5 +59,5 @@ Validation or normalization that another path skips, differs from the shared sch
 - blast-radius: a stricter parse reaching flows the MR did not target.
 
 ## Sources
-- ePort: !41 !67 !71 !79 !85 !147 !161 !232 !241 !274 !290 !293
+- review threads: 15 accepted change requests from real code reviews
 - other sources: none

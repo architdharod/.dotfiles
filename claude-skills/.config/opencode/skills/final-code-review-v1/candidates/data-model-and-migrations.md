@@ -2,7 +2,7 @@
 name: data-model-and-migrations
 family: Correctness
 tags: [db, schemas, api]
-evidence: 10 accepted ePort threads
+evidence: 10
 ---
 # Data model and migrations
 
@@ -55,5 +55,5 @@ Migrations unsafe on a live database, missing rollout steps, model and database 
 - incomplete-propagation: a new value missing from code siblings goes there. Missing seed rows and rollout steps are here.
 
 ## Sources
-- ePort: !14 !41 !71 !131 !157 !241 !259
+- review threads: 10 accepted change requests from real code reviews
 - Repo rule files on database migrations and ORM naming, read at run time

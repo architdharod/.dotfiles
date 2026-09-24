@@ -2,7 +2,7 @@
 name: derived-state-and-effect-sync
 family: Design (books)
 tags: [web, shared-ui]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Derived state and effect sync
 
@@ -54,5 +54,5 @@ State computable from props or other state is stored or synced by an effect; eff
 - performance: re-render cost as such.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - React docs: you might not need an effect

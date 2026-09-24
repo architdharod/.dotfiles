@@ -2,7 +2,7 @@
 name: file-and-code-organization
 family: Structure
 tags: [any]
-evidence: 12 accepted ePort threads
+evidence: 12
 ---
 # File contents, file names, and reading order
 
@@ -60,5 +60,5 @@ Files that mix scopes or are misnamed for their content, entry points buried und
 - precedent-divergence: a sibling already splits entry from service and the diff does not.
 
 ## Sources
-- ePort: !43 !52 !131 !144 !155 !161 !233 !271 !283 !288
+- review threads: 12 accepted change requests from real code reviews
 - other: none

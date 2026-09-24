@@ -2,7 +2,7 @@
 name: repeated-conditionals-on-type
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Repeated conditionals on a type
 
@@ -54,5 +54,5 @@ The same switch or if-chain on a type, status, or kind appears in several places
 - duplicated-logic: the same logic twice in general.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - refactoring.guru: switch statements; Refactoring (Fowler): repeated switches

@@ -2,7 +2,7 @@
 name: exception-aggregation
 family: Design (books)
 tags: [api, web]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Exception aggregation and masking
 
@@ -55,5 +55,5 @@ One error class handled at many sites, or caught far from the level that underst
 - duplicated-logic: copied handler code in general. Here: the design that made the copies necessary.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design, ch. 10 (exception masking, exception aggregation, just crash)

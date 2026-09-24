@@ -2,7 +2,7 @@
 name: data-loading-wiring
 family: Frontend
 tags: [web]
-evidence: 9 accepted ePort threads
+evidence: 9
 ---
 # Data that arrives late, stale, borrowed, or after access is gone
 
@@ -57,5 +57,5 @@ Wrong wiring between routes, queries, mutations, and components, so data arrives
 - performance: fetch waterfalls and serialized requests.
 
 ## Sources
-- ePort: !32 !36 !43 !46 !232 !241 !244
+- review threads: 9 accepted change requests from real code reviews
 - TanStack Router docs (data loading)

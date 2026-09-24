@@ -2,7 +2,7 @@
 name: together-or-apart
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Together or apart
 
@@ -58,5 +58,5 @@ Related code split across modules, or unrelated code fused into one module becau
 - strong-connascence: pieces that must agree on order or timing.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design, ch. 9: better together or better apart

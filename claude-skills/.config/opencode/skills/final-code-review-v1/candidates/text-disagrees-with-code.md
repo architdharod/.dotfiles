@@ -2,7 +2,7 @@
 name: text-disagrees-with-code
 family: Text
 tags: [any]
-evidence: 36 accepted ePort threads
+evidence: 36
 ---
 # Text disagrees with code
 
@@ -59,5 +59,5 @@ Comments, docs, API descriptions, or UI copy that contradict the code or omit a 
 - incomplete-propagation: code siblings left unchanged go there. Text left stale is here.
 
 ## Sources
-- ePort: !16 !38 !43 !45 !46 !62 !71 !136 !157 !161 !172 !177 !183 !185 !229 !230 !259 !261 !271 !274 !280 !288 !291 !292 !297
+- review threads: 36 accepted change requests from real code reviews
 - A Philosophy of Software Design: comments

@@ -2,7 +2,7 @@
 name: security-basics
 family: Process
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Security basics
 
@@ -59,5 +59,5 @@ Injection, leaked secrets, authorization from client-supplied data, PII or token
 - guards-from-wrong-or-partial-sources: a guard that reads the wrong fact for correctness reasons, not because the client controls it.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - seed only: the candidate definition in candidates-proposed.md

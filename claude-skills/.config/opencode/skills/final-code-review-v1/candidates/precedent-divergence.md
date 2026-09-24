@@ -2,7 +2,7 @@
 name: precedent-divergence
 family: Structure
 tags: [any]
-evidence: 27 accepted ePort threads
+evidence: 27
 ---
 # New code ignores the pattern its siblings use
 
@@ -57,5 +57,5 @@ A new case is wired its own way although a sibling already solves the same probl
 - ambiguous-result-shapes: the shape's own problems; here only the departure from the repo convention counts.
 
 ## Sources
-- ePort: !46 !67 !71 !79 !81 !98 !129 !131 !155 !161 !183 !240 !274 !290 !291 !293
+- review threads: 27 accepted change requests from real code reviews
 - code-reviewer skill: style conformance; A Philosophy of Software Design ch. 17 (consistency)

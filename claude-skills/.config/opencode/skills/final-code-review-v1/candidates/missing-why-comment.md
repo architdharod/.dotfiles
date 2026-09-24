@@ -2,7 +2,7 @@
 name: missing-why-comment
 family: Text
 tags: [any]
-evidence: 17 accepted ePort threads
+evidence: 17
 ---
 # Missing why-comment
 
@@ -60,5 +60,5 @@ Non-obvious decisions, asymmetries, matchers, contracts, suppressions, and depen
 - strong-connascence: whether a positional contract should exist at all.
 
 ## Sources
-- ePort: !41 !54 !66 !71 !85 !131 !155 !161 !288 !289 !291
+- review threads: 17 accepted change requests from real code reviews
 - A Philosophy of Software Design: comments should describe what is not obvious from the code

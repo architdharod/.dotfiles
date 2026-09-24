@@ -2,7 +2,7 @@
 name: accessibility
 family: Frontend
 tags: [web, shared-ui]
-evidence: 9 accepted ePort threads
+evidence: 9
 ---
 # Accessibility gaps in new UI
 
@@ -55,5 +55,5 @@ Missing or constant accessible names, color-only status, invalid states without 
 - text-disagrees-with-code: a comment that claims accessibility behavior the code does not have.
 
 ## Sources
-- ePort: !232 !240 !259 !280 !298
-- ePort threads only
+- review threads: 9 accepted change requests from real code reviews
+- real review threads only

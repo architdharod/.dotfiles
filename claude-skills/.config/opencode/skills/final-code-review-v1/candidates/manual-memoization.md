@@ -2,7 +2,7 @@
 name: manual-memoization
 family: Design (books)
 tags: [web, shared-ui]
-evidence: 0 accepted ePort threads (seed only)
+evidence: 0
 ---
 # Manual memoization the compiler already does
 
@@ -53,5 +53,5 @@ Manual memoization where the React compiler already handles it, without a docume
 - project-rule-conformance: the repo's rule on memoization, when it says more than this candidate.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - code-reviewer skill: memoization check; the repo's memoization rule file, read at run time; React Compiler docs

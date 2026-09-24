@@ -2,7 +2,7 @@
 name: test-fixtures-and-setup
 family: Tests
 tags: [tests, e2e]
-evidence: 16 accepted ePort threads
+evidence: 16
 ---
 # Test fixtures and setup that prove less than they claim
 
@@ -53,5 +53,5 @@ Fixtures too thin, unrealistic, or too broad; costly resources rebuilt per test;
 - precedent-divergence: a new setup idiom where the file already has one.
 
 ## Sources
-- ePort: !32 !45 !46 !108 !242 !259 !280 !288 !289 !290 !291
-- ePort threads only
+- review threads: 16 accepted change requests from real code reviews
+- real review threads only

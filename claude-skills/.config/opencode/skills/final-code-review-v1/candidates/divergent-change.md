@@ -2,7 +2,7 @@
 name: divergent-change
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # One module that changes for every reason
 
@@ -54,5 +54,5 @@ One module keeps changing for unrelated reasons, and the diff adds one more reas
 - repeated-conditionals-on-type: the same switch in many places. Here one switch grows in one place for many owners.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Fowler, Refactoring (divergent change); refactoring.guru (change preventers)

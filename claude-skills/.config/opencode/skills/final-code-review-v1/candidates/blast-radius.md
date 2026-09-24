@@ -2,7 +2,7 @@
 name: blast-radius
 family: Structure
 tags: [any]
-evidence: 12 accepted ePort threads
+evidence: 12
 ---
 # Blast radius of shared changes
 
@@ -55,5 +55,5 @@ A shared-code change alters flows the MR did not target, removes unrelated behav
 - scope-and-requirements: what the MR was meant to do.
 
 ## Sources
-- ePort: !41 !52 !56 !71 !85 !98 !183 !230 !259 !265 !293
+- review threads: 12 accepted change requests from real code reviews
 - other sources: none

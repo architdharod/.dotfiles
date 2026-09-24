@@ -2,7 +2,7 @@
 name: absence-conflation
 family: Correctness
 tags: [any]
-evidence: 14 accepted ePort threads
+evidence: 14
 ---
 # Absence conflation
 
@@ -56,5 +56,5 @@ One value stands for empty, missing, failed, unsupported, or not found, or a fal
 - test-fixtures-and-setup: fixture shape and setup cost in general.
 
 ## Sources
-- ePort: !32 !50 !131 !136 !177 !185 !240 !244 !268 !280 !290 !291
+- review threads: 14 accepted change requests from real code reviews
 - other sources: none

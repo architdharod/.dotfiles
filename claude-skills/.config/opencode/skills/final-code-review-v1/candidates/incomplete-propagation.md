@@ -2,7 +2,7 @@
 name: incomplete-propagation
 family: Structure
 tags: [any]
-evidence: 15 accepted ePort threads
+evidence: 15
 ---
 # A change reached some siblings but not all
 
@@ -53,5 +53,5 @@ A change reached some siblings (routes, schemas, docs, tests, list members) but 
 - blast-radius: the change touched flows it should not have; here it missed flows it should have.
 
 ## Sources
-- ePort: !14 !38 !56 !131 !144 !157 !183 !233 !259 !274 !288 !297
+- review threads: 15 accepted change requests from real code reviews
 - Fowler, Refactoring: shotgun surgery

@@ -2,7 +2,7 @@
 name: magic-values
 family: Structure
 tags: [any]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # Magic values
 
@@ -54,5 +54,5 @@ Inline numbers, strings, and lists where a named constant, enum member, or share
 - query-cache-and-keys: whether a cache lifetime value is right for its consumers; here only whether it is named.
 
 ## Sources
-- ePort: !56 !75 !79 !98 !156
+- review threads: 5 accepted change requests from real code reviews
 - code-reviewer skill: magic variables

@@ -2,7 +2,7 @@
 name: weak-or-tautological-assertions
 family: Tests
 tags: [tests, e2e]
-evidence: 22 accepted ePort threads
+evidence: 22
 ---
 # Weak or tautological assertions
 
@@ -57,5 +57,5 @@ Tests that stay green when the code is wrong: existence-only, path-only, same-so
 - text-disagrees-with-code: comments and docs versus code. Here: test names versus test bodies.
 
 ## Sources
-- ePort: !43 !44 !45 !67 !168 !233 !288 !289 !290 !291 !293 !298
+- review threads: 22 accepted change requests from real code reviews
 - other: none

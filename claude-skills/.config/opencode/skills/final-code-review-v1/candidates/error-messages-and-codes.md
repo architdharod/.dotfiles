@@ -2,7 +2,7 @@
 name: error-messages-and-codes
 family: Correctness
 tags: [api, web]
-evidence: 8 accepted ePort threads
+evidence: 8
 ---
 # Error messages and codes
 
@@ -58,5 +58,5 @@ Error codes, messages, and status classes that name the wrong condition, have no
 - absence-conflation: missing versus empty in data. Here: the same confusion in an error message.
 
 ## Sources
-- ePort: !46 !54 !71 !136 !155 !259 !261 !288
+- review threads: 8 accepted change requests from real code reviews
 - other: none

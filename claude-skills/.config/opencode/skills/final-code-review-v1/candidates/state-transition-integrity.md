@@ -2,7 +2,7 @@
 name: state-transition-integrity
 family: Correctness
 tags: [api, db]
-evidence: 12 accepted ePort threads
+evidence: 12
 ---
 # State changes without guards, atomicity, or a way to finish
 
@@ -56,5 +56,5 @@ A write moves an entity to a new state without checking preconditions, claiming 
 - data-model-and-migrations: constraints the schema itself should hold.
 
 ## Sources
-- ePort: !71 !108 !113 !116 !127 !156 !274 !283 !291
+- review threads: 12 accepted change requests from real code reviews
 - thermo-nuclear-code-quality-review skill: non-atomic updates

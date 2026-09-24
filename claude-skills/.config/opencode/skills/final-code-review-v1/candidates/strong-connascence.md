@@ -2,7 +2,7 @@
 name: strong-connascence
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Strong connascence
 
@@ -58,5 +58,5 @@ Two places must agree on position, algorithm, execution order, timing, or identi
 - react-state-and-effects: effect ordering in React.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Fundamentals of Software Architecture ch. 3: connascence (strength, locality, degree)

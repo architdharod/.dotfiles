@@ -2,7 +2,7 @@
 name: feature-envy
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Feature envy
 
@@ -52,5 +52,5 @@ A function that works mostly on another module's data and belongs next to that d
 - information-leakage: a shape known by several modules is reported there when no single function stands out.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Refactoring (Fowler): feature envy

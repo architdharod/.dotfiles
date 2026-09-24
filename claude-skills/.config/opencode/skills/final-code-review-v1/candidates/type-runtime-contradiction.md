@@ -2,7 +2,7 @@
 name: type-runtime-contradiction
 family: Types
 tags: [any]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # Type and runtime contradict each other
 
@@ -56,4 +56,4 @@ Guards for cases the type forbids, or types that promise what the runtime does n
 - ambiguous-result-shapes: fields optional only because they depend on a mode.
 
 ## Sources
-- ePort: !41 !56 !85 !259
+- review threads: 5 accepted change requests from real code reviews

@@ -2,7 +2,7 @@
 name: code-obviousness
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Code a reader cannot follow without deep study
 
@@ -58,5 +58,5 @@ Code a reader cannot follow without deep study: unlabeled tuples, hidden control
 - data-clumps-and-long-parameter-lists: values that travel together. Here, the meaning of each slot.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design, ch. 18 (code should be obvious)

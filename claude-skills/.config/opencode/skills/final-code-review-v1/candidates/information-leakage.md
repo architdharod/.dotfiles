@@ -2,7 +2,7 @@
 name: information-leakage
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Information leakage
 
@@ -54,5 +54,5 @@ A format, layout, protocol, or ordering decision known by several modules, so on
 - incomplete-propagation: the forgotten site when a leaked decision changes. Both can fire on one diff.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design, ch. 5 (information hiding and information leakage)

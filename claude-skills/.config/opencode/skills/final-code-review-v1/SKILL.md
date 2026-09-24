@@ -1,6 +1,6 @@
 ---
 name: final-code-review-v1
-description: Candidate-based review of a local git diff against a base branch. Runs one read-only helper agent per review candidate (74 candidates distilled from accepted ePort review threads and design books), verifies every finding with a second agent, and reports only what to change, sorted by severity. Use when the user asks to review a branch, MR, or diff, or invokes /final-code-review-v1.
+description: Candidate-based review of a local git diff against a base branch. Runs one read-only helper agent per review candidate (74 candidates distilled from accepted requests in real code reviews and from design books), verifies every finding with a second agent, and reports only what to change, sorted by severity. Use when the user asks to review a branch, MR, or diff, or invokes /final-code-review-v1.
 ---
 
 # Final code review v1
@@ -16,7 +16,7 @@ One helper agent per candidate. A candidate is one review concern. Helpers only 
 - `model`: `sonnet`, `opus`, `fable`, or `haiku` for helper and verifier agents. Default: the session model.
 - `N`: how many agents run at the same time. Default 8.
 
-Effort: helpers use the session effort. Tell the user to set `/effort` first if they want a different level. When arguments are missing, ask once with AskUserQuestion: at most two questions, defaults as the recommended option. To review someone else's MR, the user checks the branch out first, for example with `glab mr checkout <iid>`.
+Effort: helpers use the session effort. Tell the user to set `/effort` first if they want a different level. When arguments are missing, ask once with AskUserQuestion: at most two questions, defaults as the recommended option. To review someone else's MR, the user checks the branch out first, for example with `glab mr checkout <iid>` or `gh pr checkout <n>`.
 
 ## Paths
 
@@ -44,10 +44,10 @@ Effort: helpers use the session effort. Tell the user to set `/effort` first if 
 
 ## Candidate index
 
-Details live in `candidates/<id>.md`. Read one only when the user asks about it.
+Details live in `candidates/<id>.md`. Read one only when the user asks about it. `evidence` is the number of accepted change requests from real code reviews behind the candidate; 0 means it comes from a book or an earlier skill.
 
 <!-- INDEX:START -->
-| candidate | family | tags | threads | looks for |
+| candidate | family | tags | evidence | looks for |
 |---|---|---|---|---|
 | `blast-radius` | Structure | any | 12 | A shared-code change alters flows the MR did not target, removes unrelated behavior, or deletes what planned work needs. |
 | `closed-set-exhaustiveness` | Structure | any | 6 | Maps and branches over a closed set that compile with a member missing; assumed invariants nothing enforces; misclassified members. |

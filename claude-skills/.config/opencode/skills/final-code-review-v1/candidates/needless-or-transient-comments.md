@@ -2,7 +2,7 @@
 name: needless-or-transient-comments
 family: Text
 tags: [any]
-evidence: 14 accepted ePort threads
+evidence: 14
 ---
 # Needless or transient comments
 
@@ -55,6 +55,6 @@ Comments that restate the obvious, cite transient facts, leak the author's workf
 - writing-style: prose that is padded or generic. Here: prose that should not exist.
 
 ## Sources
-- ePort: !148 !161 !233 !259 !289 !292
+- review threads: 14 accepted change requests from real code reviews
 - A Philosophy of Software Design, ch. 12 and 13 (comments)
 - refactoring.guru: comments (dispensables)

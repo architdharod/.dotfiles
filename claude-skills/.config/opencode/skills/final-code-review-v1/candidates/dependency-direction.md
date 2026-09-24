@@ -2,7 +2,7 @@
 name: dependency-direction
 family: Design (books)
 tags: [any, config]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Dependency direction
 
@@ -57,5 +57,5 @@ Imports that cross an architecture boundary the wrong way, or boundaries with no
 - strong-connascence: two places that must agree on order or timing go there.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Fundamentals of Software Architecture, chapter 10: layered architecture; fitness functions

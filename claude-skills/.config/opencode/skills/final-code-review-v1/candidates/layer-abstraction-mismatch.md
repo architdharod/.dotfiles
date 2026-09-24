@@ -2,7 +2,7 @@
 name: layer-abstraction-mismatch
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Layer abstraction mismatch
 
@@ -52,5 +52,5 @@ Adjacent layers that expose the same abstraction: pass-through methods, decorato
 - dead-code-and-export-surface: layers with no caller go there.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design, chapter 7: different layer, different abstraction

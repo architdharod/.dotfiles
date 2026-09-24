@@ -2,7 +2,7 @@
 name: performance
 family: Process
 tags: [any]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # Performance
 
@@ -56,6 +56,6 @@ Per-item lookups in loops, serialized independent work, unbounded queries, avoid
 - shallow-abstractions: perf machinery around small parts is reported there.
 
 ## Sources
-- ePort: !41 !43 !155 !242 !244
+- review threads: 5 accepted change requests from real code reviews
 - thermo-nuclear-code-quality-review skill: sequential orchestration
-- seed list wider than the ePort threads
+- seed list wider than the review threads

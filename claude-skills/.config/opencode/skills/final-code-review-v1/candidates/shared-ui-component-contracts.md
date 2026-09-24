@@ -2,7 +2,7 @@
 name: shared-ui-component-contracts
 family: Frontend
 tags: [shared-ui, web]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # Shared UI component contracts
 
@@ -54,4 +54,4 @@ Shared components that break caller styling, bake in call-site details, or lack 
 - missing-test-cases: tests as such.
 
 ## Sources
-- ePort: !52 !98 !174 !259 !280
+- review threads: 5 accepted change requests from real code reviews

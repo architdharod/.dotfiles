@@ -2,7 +2,7 @@
 name: imprecise-types
 family: Types
 tags: [any]
-evidence: 12 accepted ePort threads
+evidence: 12
 ---
 # Imprecise types, casts, and annotations
 
@@ -58,6 +58,6 @@ Casts, wide types, or annotations where a schema, enum, or inference already giv
 - duplicated-logic: a fixture copied verbatim across packages.
 
 ## Sources
-- ePort: !39 !46 !47 !79 !131 !161 !185 !216 !288
+- review threads: 12 accepted change requests from real code reviews
 - code-reviewer skill: unnecessary typecasts
 - Effective TypeScript

@@ -2,7 +2,7 @@
 name: speculative-generality
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Speculative generality
 
@@ -56,7 +56,7 @@ Parameters, options, abstractions, or extension points added for a future need t
 - scope-and-requirements: required work that is missing. Here: unrequired work that is present.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Fowler, Refactoring: speculative generality
 - refactoring.guru: speculative generality
 - A Philosophy of Software Design, ch. 19 (patterns for their own sake, getters and setters)

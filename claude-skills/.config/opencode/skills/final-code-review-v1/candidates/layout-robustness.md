@@ -2,7 +2,7 @@
 name: layout-robustness
 family: Frontend
 tags: [web, shared-ui]
-evidence: 7 accepted ePort threads
+evidence: 7
 ---
 # Layout robustness
 
@@ -53,5 +53,5 @@ Layout that breaks with real copy, other viewports, or overflow, or visibly depa
 - scope-and-requirements: missing features against the reference system go there. Visual departures from the design are here.
 
 ## Sources
-- ePort: !43 !52 !98 !229 !233 !293
+- review threads: 7 accepted change requests from real code reviews
 - other: none

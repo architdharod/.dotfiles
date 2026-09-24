@@ -2,7 +2,7 @@
 name: value-comparison-pitfalls
 family: Correctness
 tags: [any]
-evidence: 3 accepted ePort threads
+evidence: 3
 ---
 # Value comparison pitfalls
 
@@ -53,5 +53,5 @@ Dates crossing UTC and local boundaries, structured values compared as raw strin
 - missing-why-comment: an undocumented ordering choice is reported here when the comparator is the subject.
 
 ## Sources
-- ePort: !54 !216 !231
+- review threads: 3 accepted change requests from real code reviews
 - other: none

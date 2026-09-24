@@ -2,7 +2,7 @@
 name: data-clumps-and-long-parameter-lists
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Data clumps and long parameter lists
 
@@ -57,5 +57,5 @@ Several values that always travel together as separate parameters or fields, or 
 - test-fixtures-and-setup: helpers with unused parameters.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Fowler, Refactoring: data clumps, long parameter list

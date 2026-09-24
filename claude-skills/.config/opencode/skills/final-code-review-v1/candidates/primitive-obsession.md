@@ -2,7 +2,7 @@
 name: primitive-obsession
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Primitive obsession
 
@@ -59,6 +59,6 @@ Plain strings and numbers carrying domain meaning where a union, enum, or brande
 - speculative-generality: types added for a case that never happens.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - Fowler, Refactoring: primitive obsession
 - Effective TypeScript: precise unions and branded types

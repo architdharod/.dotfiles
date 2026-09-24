@@ -2,7 +2,7 @@
 name: shallow-abstractions
 family: Structure
 tags: [any]
-evidence: 13 accepted ePort threads
+evidence: 13
 ---
 # Shallow abstractions
 
@@ -57,6 +57,6 @@ Wrappers, pass-through functions, extra files, and machinery that add parts with
 - layout-robustness: a wrapper element that breaks alignment or wrapping is reported there.
 
 ## Sources
-- ePort: !43 !53 !56 !98 !131 !155 !161 !232 !290
+- review threads: 13 accepted change requests from real code reviews
 - A Philosophy of Software Design: deep vs shallow modules, pass-through methods
 - thermo-nuclear-code-quality-review skill: thin wrappers

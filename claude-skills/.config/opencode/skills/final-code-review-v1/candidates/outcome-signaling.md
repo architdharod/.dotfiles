@@ -2,7 +2,7 @@
 name: outcome-signaling
 family: Correctness
 tags: [any]
-evidence: 9 accepted ePort threads
+evidence: 9
 ---
 # Outcome signaling
 
@@ -58,4 +58,4 @@ Partial failure reported as success, distinct outcomes merged into one signal, r
 - absence-conflation: one value standing for several kinds of missing data.
 
 ## Sources
-- ePort: !71 !131 !136 !259 !271 !274 !283
+- review threads: 9 accepted change requests from real code reviews

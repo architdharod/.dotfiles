@@ -2,7 +2,7 @@
 name: wrong-home
 family: Structure
 tags: [any]
-evidence: 33 accepted ePort threads
+evidence: 33
 ---
 # Code in the wrong home
 
@@ -62,5 +62,5 @@ Code sits in a layer or module that does not own it, including one-consumer re-e
 - dependency-direction: import direction across an architecture boundary.
 
 ## Sources
-- ePort: !31 !32 !41 !43 !52 !85 !98 !99 !108 !131 !155 !157 !168 !177 !183 !244 !288 !291
+- review threads: 33 accepted change requests from real code reviews
 - thermo-nuclear-code-quality-review skill: keep logic in the canonical layer

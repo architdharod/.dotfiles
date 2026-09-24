@@ -2,7 +2,7 @@
 name: complexity-pushed-to-callers
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Complexity pushed to callers
 
@@ -56,5 +56,5 @@ A module leaves cases, defaults, or call ordering to every caller when it could 
 - speculative-generality: generality for a need nobody has. The line is whether a second caller exists or is in the MR's scope.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design (Ousterhout): ch. 6 general-purpose modules are deeper, ch. 7 different layer different abstraction, ch. 8 pull complexity downwards

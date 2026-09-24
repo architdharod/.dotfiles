@@ -2,7 +2,7 @@
 name: single-source-of-truth
 family: Structure
 tags: [any]
-evidence: 18 accepted ePort threads
+evidence: 18
 ---
 # Single source of truth
 
@@ -59,5 +59,5 @@ One fact, list, type, or fixture kept by hand in two places, or one constant ser
 - naming: a copy whose name suggests a different concept is also reported there.
 
 ## Sources
-- ePort: !50 !67 !71 !79 !85 !185 !233 !256 !258 !259 !261 !271 !288 !293
+- review threads: 18 accepted change requests from real code reviews
 - A Philosophy of Software Design: information leakage

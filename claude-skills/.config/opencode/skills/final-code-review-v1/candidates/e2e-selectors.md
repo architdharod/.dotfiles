@@ -2,7 +2,7 @@
 name: e2e-selectors
 family: Tests
 tags: [e2e, tests]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # End-to-end selectors
 
@@ -53,5 +53,5 @@ E2E locators coupled to DOM nesting, translated copy, live counts, or page-wide 
 - accessibility: missing roles and names make role locators impossible. Report the missing name there.
 
 ## Sources
-- ePort: !286
+- review threads: 5 accepted change requests from real code reviews
 - other: none

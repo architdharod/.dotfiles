@@ -2,7 +2,7 @@
 name: docs-scope-and-durability
 family: Text
 tags: [docs]
-evidence: 7 accepted ePort threads
+evidence: 7
 ---
 # Docs that will not last or do not belong
 
@@ -58,5 +58,5 @@ Docs that snapshot a moment, copy from code, record routine choices formally, or
 - project-rule-conformance: glossary rules the repo states itself.
 
 ## Sources
-- ePort: !155 !161 !168 !183 !271 !280 !288
-- ePort threads only; no book or skill source
+- review threads: 7 accepted change requests from real code reviews
+- real review threads only

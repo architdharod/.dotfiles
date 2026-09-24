@@ -2,7 +2,7 @@
 name: project-rule-conformance
 family: Process
 tags: [any]
-evidence: 13 accepted ePort threads
+evidence: 13
 ---
 # The diff breaks a rule the repo states in writing
 
@@ -53,5 +53,5 @@ Read the repo's own rule files at run time and check the diff against every rule
 - needless-or-transient-comments: the comment's content, not its language.
 
 ## Sources
-- ePort: !43 !64 !90 !99 !131 !183 !280 !288
+- review threads: 13 accepted change requests from real code reviews
 - code-reviewer skill: rule conformance

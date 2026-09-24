@@ -2,7 +2,7 @@
 name: mirror-case-gaps
 family: Correctness
 tags: [any]
-evidence: 8 accepted ePort threads
+evidence: 8
 ---
 # One direction handled, the other forgotten
 
@@ -54,5 +54,5 @@ A sync, reconciliation, guard, or test handles one direction of a symmetric pair
 - outcome-signaling: an error path that leaves no trace for the user.
 
 ## Sources
-- ePort: !52 !64 !241 !259 !280 !288 !289
-- ePort threads only; no book or skill source
+- review threads: 8 accepted change requests from real code reviews
+- real review threads only

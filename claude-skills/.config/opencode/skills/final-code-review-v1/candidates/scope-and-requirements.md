@@ -2,7 +2,7 @@
 name: scope-and-requirements
 family: Correctness
 tags: [any]
-evidence: 16 accepted ePort threads
+evidence: 16
 ---
 # Scope and requirements
 
@@ -60,4 +60,4 @@ Stubs, deferred hard requirements, and behaviour that contradicts the ticket, th
 - needless-or-transient-comments: TODO markers that are stale or leak workflow, not gaps in delivery.
 
 ## Sources
-- ePort: !14 !32 !41 !53 !85 !178 !183 !229 !259 !268
+- review threads: 16 accepted change requests from real code reviews

@@ -2,7 +2,7 @@
 name: temporal-decomposition
 family: Design (books)
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Modules split by when they run, not by what they know
 
@@ -52,5 +52,5 @@ Modules or steps split by when they run, so two of them must know the same forma
 - strong-connascence: two places that must agree on execution order or an algorithm.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - A Philosophy of Software Design, ch. 5 (information hiding; temporal decomposition)

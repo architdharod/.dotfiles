@@ -2,7 +2,7 @@
 name: error-reporting-hygiene
 family: Correctness
 tags: [api, web]
-evidence: 4 accepted ePort threads
+evidence: 4
 ---
 # Error reports that fire twice or say too little
 
@@ -55,5 +55,5 @@ Error reports that fire twice, lack the ids needed to act, or attach context in 
 - security-basics: personal data in logs and reports.
 
 ## Sources
-- ePort: !71 !85
-- ePort threads only; no book or skill source
+- review threads: 4 accepted change requests from real code reviews
+- real review threads only

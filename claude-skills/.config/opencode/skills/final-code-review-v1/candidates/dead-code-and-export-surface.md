@@ -2,7 +2,7 @@
 name: dead-code-and-export-surface
 family: Structure
 tags: [any]
-evidence: 32 accepted ePort threads
+evidence: 32
 ---
 # Dead code and export surface
 
@@ -57,5 +57,5 @@ Unused exports, functions, props, no-op statements, commented-out code, and expo
 - scope-and-requirements: stubs and placeholder behavior shipped on purpose.
 
 ## Sources
-- ePort: !16 !32 !41 !43 !45 !46 !48 !52 !71 !79 !85 !86 !90 !98 !147 !155 !183 !193 !230 !233 !261 !297
+- review threads: 32 accepted change requests from real code reviews
 - code-reviewer skill: unnecessary type exports

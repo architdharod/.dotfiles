@@ -2,7 +2,7 @@
 name: writing-style
 family: Text
 tags: [any]
-evidence: 0 accepted ePort threads
+evidence: 0
 ---
 # Writing style in comments, docs, and MR text
 
@@ -58,5 +58,5 @@ Comments, docs, and MR text that read like generated prose: puffed up, padded, g
 - project-rule-conformance: language and casing rules the repo states.
 
 ## Sources
-- ePort: none
+- review threads: none (seed only)
 - humanizer skill (Wikipedia: signs of AI writing); user seed

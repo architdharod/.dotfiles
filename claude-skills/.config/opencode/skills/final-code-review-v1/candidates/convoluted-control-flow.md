@@ -2,7 +2,7 @@
 name: convoluted-control-flow
 family: Structure
 tags: [any]
-evidence: 2 accepted ePort threads
+evidence: 2
 ---
 # Convoluted control flow
 
@@ -57,5 +57,5 @@ Dense compound conditions, branchy reassignment chains, and one-off special case
 - ambiguous-result-shapes: several independent booleans as a return shape.
 
 ## Sources
-- ePort: !39 !71
+- review threads: 2 accepted change requests from real code reviews
 - thermo-nuclear-code-quality-review skill: spaghetti growth

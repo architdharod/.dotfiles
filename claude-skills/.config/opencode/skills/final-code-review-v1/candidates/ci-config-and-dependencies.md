@@ -2,7 +2,7 @@
 name: ci-config-and-dependencies
 family: Process
 tags: [ci, config]
-evidence: 14 accepted ePort threads
+evidence: 14
 ---
 # CI configuration and dependencies
 
@@ -59,5 +59,5 @@ CI jobs without needs, timeouts, or retries; checks that skip files; floating ve
 - text-disagrees-with-code: docs that describe config wrongly. An example config file with a wrong value belongs here.
 
 ## Sources
-- ePort: !7 !16 !43 !51 !70 !98 !107 !161 !242 !256
+- review threads: 14 accepted change requests from real code reviews
 - other: none

@@ -2,7 +2,7 @@
 name: react-state-and-effects
 family: Frontend
 tags: [web, shared-ui]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # React state and effects
 
@@ -54,6 +54,6 @@ List keys, state placement, remount hacks, effect scope, and cleanup against Rea
 - ui-state-fidelity: what the user sees. Here only the React mechanism behind it.
 
 ## Sources
-- ePort: !41 !43 !183 !280 !298
+- review threads: 5 accepted change requests from real code reviews
 - code-reviewer skill: useMemo and useEffect misuse
 - React docs: rules of hooks, rendering lists, synchronizing with effects, you might not need an effect

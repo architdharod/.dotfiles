@@ -2,7 +2,7 @@
 name: ambiguous-result-shapes
 family: Types
 tags: [any]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # Ambiguous result shapes
 
@@ -53,5 +53,5 @@ Results or states whose outcome is encoded by absence or by several booleans ins
 - precedent-divergence: a break from the repo's result convention is also reported there when a sibling shows the pattern.
 
 ## Sources
-- ePort: !71 !131 !185 !233 !240
+- review threads: 5 accepted change requests from real code reviews
 - Effective TypeScript: tagged unions

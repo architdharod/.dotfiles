@@ -2,7 +2,7 @@
 name: batch-failure-isolation
 family: Correctness
 tags: [api, web]
-evidence: 5 accepted ePort threads
+evidence: 5
 ---
 # Batch failure isolation
 
@@ -52,5 +52,5 @@ One failing item aborts, discards, or starves a whole batch of independent items
 - performance: independent work run one after another for speed reasons goes there.
 
 ## Sources
-- ePort: !161 !168 !271 !283
+- review threads: 5 accepted change requests from real code reviews
 - other: none

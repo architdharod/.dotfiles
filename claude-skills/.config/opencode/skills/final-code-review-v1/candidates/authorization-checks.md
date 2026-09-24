@@ -2,7 +2,7 @@
 name: authorization-checks
 family: Correctness
 tags: [api, web]
-evidence: 6 accepted ePort threads
+evidence: 6
 ---
 # Missing or misplaced authorization
 
@@ -12,7 +12,7 @@ A mutating route lacks its role or ownership check, a privileged role bypasses c
 ## What to look for
 - A new or changed mutating route with no role check and no ownership check, or with the check deferred to a follow-up. Compare with what the spec or ticket requires and with sibling routes.
 - A route with no forbidden path: nothing can answer 403, and no test covers it.
-- A check based on group membership or a client-side flag where a realm role or server-held ownership is the source of truth.
+- A check based on group membership or a client-side flag where a server-held role or ownership is the source of truth.
 - A mutation that never verifies the caller is the assignee or owner of the entity it changes.
 - A privileged role skips integrity or business checks that apply to everyone else. Elevated rights should widen what a user may do, not disable checks on what is valid.
 - Client-side route guards that re-check authorization the API enforces and redirect before the request. Prefer the loader and a server 403 handled once.
@@ -50,5 +50,5 @@ A mutating route lacks its role or ownership check, a privileged role bypasses c
 - scope-and-requirements: a check deferred to a follow-up is also a deferred hard requirement.
 
 ## Sources
-- ePort: !14 !32 !41 !46 !71 !85
-- ePort threads only
+- review threads: 6 accepted change requests from real code reviews
+- real review threads only
