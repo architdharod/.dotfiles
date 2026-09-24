@@ -1,0 +1,14 @@
+install.sh
+  h_2dddd97a32d599 9-10,18-19,26-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d65899bdc5ccc4cb3c4583595547bd7d11215d91",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
