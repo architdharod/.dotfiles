@@ -24,9 +24,12 @@ for f in .cursor/rules/*.mdc CLAUDE.md AGENTS.md CONTEXT.md .cursorrules; do
   [ -e "$f" ] && echo "$f" >> "$out/rules.txt"
 done
 
+branch="$(git branch --show-current)"
+[ -n "$branch" ] || branch="detached-$(git rev-parse --short HEAD)"
+
 {
   echo "repo: $root"
-  echo "branch: $(git rev-parse --abbrev-ref HEAD)"
+  echo "branch: $branch"
   echo "base: $base"
   echo "files changed: $(wc -l < "$out/files.txt" | tr -d ' ')"
   echo "lines: +$(awk '{a+=$1} END{print a+0}' "$out/files.txt") -$(awk '{d+=$2} END{print d+0}' "$out/files.txt")"

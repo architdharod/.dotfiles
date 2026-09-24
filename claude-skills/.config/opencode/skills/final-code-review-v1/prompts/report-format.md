@@ -30,4 +30,4 @@ The report holds only things to change. No praise. No "this passed". No FYI. No 
 - Plain words. Short sentences. No em-dashes. Name the file and lines once, in the heading.
 - Run the draft through the humanizer skill before showing it. Keep every fact and every number. Cut filler.
 - Omit empty sections. When nothing was confirmed, the whole report is one line: `No issues found. Candidates run: <N> of 74.`
-- Save the report to `{{REPORT_FILE}}`. Print the report in chat, then the path on its own line.
+- Save the report to `<work>/report.md`. Print the report in chat, then the path on its own line.

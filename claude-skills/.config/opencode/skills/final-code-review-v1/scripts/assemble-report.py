@@ -12,14 +12,21 @@ ORDER = ["must-fix", "should-fix", "nit"]
 TITLE = {"must-fix": "Must fix", "should-fix": "Should fix", "nit": "Nits"}
 
 confirmed = []
+unreadable = 0
 for f in sorted(glob.glob(os.path.join(vdir, "*.json"))):
     try:
         v = json.load(open(f))
     except Exception as e:
         print(f"skip {f}: {e}", file=sys.stderr)
+        unreadable += 1
+        continue
+    if not isinstance(v, dict):
+        print(f"skip {f}: not a JSON object", file=sys.stderr)
+        unreadable += 1
         continue
     if v.get("verdict") == "confirmed":
-        v.setdefault("severity", "should-fix")
+        if v.get("severity") not in ORDER:
+            v["severity"] = "should-fix"
         confirmed.append(v)
 
 counts = {s: sum(1 for v in confirmed if v["severity"] == s) for s in ORDER}
@@ -28,6 +35,9 @@ if not confirmed:
     lines.append(f"No issues found. Candidates run: {run} of {total}.")
 else:
     lines.append(f"{counts['must-fix']} must fix, {counts['should-fix']} should fix, {counts['nit']} nits. Candidates run: {run} of {total}. Skipped: {skipped}.")
+if unreadable:
+    lines.append(f"Warning: {unreadable} verdict file(s) could not be read. Rerun those verifiers before trusting this report.")
+    print(f"WARNING: {unreadable} unreadable verdict file(s)", file=sys.stderr)
     for s in ORDER:
         group = sorted((v for v in confirmed if v["severity"] == s), key=lambda v: (v.get("file", ""), int(v.get("start_line") or 0)))
         if not group:

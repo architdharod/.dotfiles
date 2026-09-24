@@ -19,6 +19,7 @@ for f in sorted(glob.glob(os.path.join(src, "*.json"))):
         print(f"skip {f}: {e}", file=sys.stderr)
         continue
     if not isinstance(data, list):
+        print(f"skip {f}: not a JSON array (a helper wrote the wrong shape); rerun that candidate", file=sys.stderr)
         continue
     for d in data:
         if not d.get("file"):

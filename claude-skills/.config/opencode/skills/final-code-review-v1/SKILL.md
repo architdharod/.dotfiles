@@ -21,11 +21,12 @@ Effort: helpers use the session effort. Tell the user to set `/effort` first if 
 ## Paths
 
 - `<skill>` = the directory of this file.
-- `<work>` = `<scratchpad>/review-<branch>` where `<scratchpad>` is the session scratchpad directory. Create it.
+- `<work>` = `<scratchpad>/review-<branch>` where `<scratchpad>` is the session scratchpad directory, or a fresh temp directory when the session lists none. Replace `/` in the branch name with `-`. Create it.
+- Only committed changes are in the diff. If the working tree is dirty, tell the user to commit or stash first.
 
 ## Flow
 
-1. **Prepare.** Run `bash <skill>/scripts/prepare-review.sh <base> <work>`. It writes `diff.patch`, `files.txt`, `tags.txt`, `rules.txt`, and `summary.txt` and prints the summary. Stop and tell the user when the diff is empty or the base branch is missing.
+1. **Prepare.** From inside the repo (any subfolder works), run `bash <skill>/scripts/prepare-review.sh <base> <work>`. It writes `diff.patch`, `files.txt`, `tags.txt`, `rules.txt`, and `summary.txt` and prints the summary. Stop and tell the user when the diff is empty or the base branch is missing.
 2. **Pick candidates.** Read `<work>/summary.txt` and the index below. Do not read candidate files; the helpers do.
    - `all`: every candidate whose tags include `any` or share a tag with `tags.txt`. Note the skipped ids.
    - `auto`: choose the candidates the diff can plausibly violate, from the index lines and the file list. Show the list in one AskUserQuestion (options: run this list, or edit). Run after OK.
