@@ -33,7 +33,11 @@ Effort: helpers use the session effort. Tell the user to set `/effort` first if 
 3. **Run helpers.** For each chosen candidate, one Agent call: `subagent_type` general-purpose, `model` as chosen. The prompt is `<skill>/prompts/candidate-agent.md` with every `{{PLACEHOLDER}}` filled: `CANDIDATE_ID`, `CANDIDATE_FILE` (`<skill>/candidates/<id>.md`), `DIFF_FILE`, `FILES_LIST`, `BASE`, `REPO_ROOT`, `RULE_FILES` (the lines of `rules.txt`, or `none`), `OUT_FILE` (`<work>/findings/<id>.json`). Launch N agents per message. When one returns, launch the next, until every candidate ran. Do not read the findings files yet.
 4. **Merge.** `python3 <skill>/scripts/merge-findings.py <work>/findings <work>/merged.json`. It prints one line per merged finding.
 5. **Verify.** For each merged finding, one Agent call, N at a time, same model. The prompt is `<skill>/prompts/verifier-agent.md` with `FINDING_ID`, `FINDING_JSON` (the object from `merged.json`), `CANDIDATE_FILE` (the first candidate in its list), `DIFF_FILE`, `BASE`, `REPO_ROOT`, `OUT_FILE` (`<work>/verdicts/<id>.json`).
-6. **Report.** `python3 <skill>/scripts/assemble-report.py <work>/verdicts <branch> <base> <run> 74 "<skipped ids or none>" <work>/report.md`. Then invoke the humanizer skill on the report text: keep every fact and number, cut filler, plain words. Save the result to `<work>/report.md`. Print the report in chat, then the path on its own line. Format rules: `<skill>/prompts/report-format.md`.
+6. **Report.**
+   a. Run `python3 <skill>/scripts/assemble-report.py <work>/verdicts <branch> <base> <candidates run> 74 "<skipped ids or none>" <work>/report.md`. `<candidates run>` is the number of candidates that ran, not a run number.
+   b. MANDATORY: call `Skill(skill: "humanizer")` on the full text of `<work>/report.md`. Keep every fact, path, line number, count, code snippet, and section label (Problem, Why it matters, Evidence, Fix). Do not skip this step.
+   c. Overwrite `<work>/report.md` with the humanizer result.
+   d. Print `<work>/report.md` in chat exactly as saved. Do not summarize, reorder, or rewrite it. Then print the path on its own line. Format rules: `<skill>/prompts/report-format.md`.
 
 ## Rules for the orchestrator
 

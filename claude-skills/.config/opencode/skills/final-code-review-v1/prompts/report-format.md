@@ -12,8 +12,19 @@ The report holds only things to change. No praise. No "this passed". No FYI. No 
 ## Must fix
 
 ### `path/to/file.ts:120-134`
-<What is wrong. One or two sentences.>
-<What to do. One sentence.>
+
+**Problem:** <What is wrong. One or two sentences.>
+
+**Why it matters:** <The concrete failure: which input or state, what breaks, for whom.>
+
+**Evidence:** <path:line references and what they show; base behavior for regressions.>
+
+```ts
+<up to 8 verbatim lines, when useful>
+```
+
+**Fix:** <What to do. One sentence.>
+
 (candidate: <id>, <id>)
 
 ## Should fix

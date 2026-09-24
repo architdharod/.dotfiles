@@ -46,7 +46,16 @@ for s in ORDER:
     for v in group:
         a, b = int(v.get("start_line") or 0), int(v.get("end_line") or 0)
         loc = f"{v.get('file','')}:{a}" + (f"-{b}" if b and b != a else "")
-        lines += ["", f"### `{loc}`", v.get("what_is_wrong", "").strip(), v.get("what_to_do", "").strip(), f"(candidate: {', '.join(v.get('candidates') or [])})"]
+        lines += ["", f"### `{loc}`", "", f"**Problem:** {v.get('what_is_wrong', '').strip()}"]
+        why = (v.get("why_it_matters") or v.get("reason") or "").strip()
+        if why:
+            lines += ["", f"**Why it matters:** {why}"]
+        if (v.get("evidence") or "").strip():
+            lines += ["", f"**Evidence:** {v['evidence'].strip()}"]
+        if (v.get("snippet") or "").strip():
+            ext = os.path.splitext(v.get("file", ""))[1].lstrip(".")
+            lines += ["", f"```{ext}", v["snippet"].rstrip(), "```"]
+        lines += ["", f"**Fix:** {v.get('what_to_do', '').strip()}", "", f"(candidate: {', '.join(v.get('candidates') or [])})"]
 open(out, "w").write("\n".join(lines) + "\n")
 print("\n".join(lines))
 print(f"\nsaved: {out}", file=sys.stderr)
