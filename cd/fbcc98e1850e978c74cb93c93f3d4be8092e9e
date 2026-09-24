@@ -1,0 +1,56 @@
+nvim/.config/nvim/.luarc.json
+  h_2dddd97a32d599 1-6
+nvim/.config/nvim/README.md
+  h_2dddd97a32d599 1-19
+nvim/.config/nvim/init.lua
+  h_2dddd97a32d599 1-22
+nvim/.config/nvim/lazy-lock.json
+  h_2dddd97a32d599 1-28
+nvim/.config/nvim/lua/my-special-vim-options.lua
+  h_2dddd97a32d599 1-66
+nvim/.config/nvim/lua/plugins.lua
+  h_2dddd97a32d599 1
+nvim/.config/nvim/lua/plugins/alpha.lua
+  h_2dddd97a32d599 1-22
+nvim/.config/nvim/lua/plugins/auto-braket-close.lua
+  h_2dddd97a32d599 1-6
+nvim/.config/nvim/lua/plugins/auto-complete.lua
+  h_2dddd97a32d599 1-44
+nvim/.config/nvim/lua/plugins/catppuccin.lua
+  h_2dddd97a32d599 1-17
+nvim/.config/nvim/lua/plugins/codeium.lua
+  h_2dddd97a32d599 1-11
+nvim/.config/nvim/lua/plugins/flash.lua
+  h_2dddd97a32d599 1-41
+nvim/.config/nvim/lua/plugins/gitsigns.lua
+  h_2dddd97a32d599 1-6
+nvim/.config/nvim/lua/plugins/indent-blankline.lua
+  h_2dddd97a32d599 1-2
+nvim/.config/nvim/lua/plugins/lazygit.lua
+  h_2dddd97a32d599 1-20
+nvim/.config/nvim/lua/plugins/lsp-config.lua
+  h_2dddd97a32d599 1-41
+nvim/.config/nvim/lua/plugins/lualine.lua
+  h_2dddd97a32d599 1-14
+nvim/.config/nvim/lua/plugins/neo-tree.lua
+  h_2dddd97a32d599 1-12
+nvim/.config/nvim/lua/plugins/none-ls.lua
+  h_2dddd97a32d599 1-16
+nvim/.config/nvim/lua/plugins/telescope.lua
+  h_2dddd97a32d599 1-31
+nvim/.config/nvim/lua/plugins/tokyonight.lua
+  h_2dddd97a32d599 1-17
+nvim/.config/nvim/lua/plugins/treesitter.lua
+  h_2dddd97a32d599 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cdfbcc98e1850e978c74cb93c93f3d4be8092e9e",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
