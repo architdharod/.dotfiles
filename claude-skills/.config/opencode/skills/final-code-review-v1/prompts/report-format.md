@@ -37,6 +37,7 @@ The report holds only things to change. No praise. No "this passed". No FYI. No 
 ## Rules
 
 - Worst first. Inside a section, order by file path, then line.
+- Put a `---` divider line between entries in the same section. The script adds it. Keep it when humanizing.
 - One entry per merged finding. List every candidate id that pointed at it.
 - Plain words. Short sentences. No em-dashes. Name the file and lines once, in the heading.
 - Run the draft through the humanizer skill before showing it. Keep every fact and every number. Cut filler.

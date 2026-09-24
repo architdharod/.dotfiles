@@ -43,7 +43,7 @@ for s in ORDER:
     if not group:
         continue
     lines += ["", f"## {TITLE[s]}"]
-    for v in group:
+    for i, v in enumerate(group):
         a, b = int(v.get("start_line") or 0), int(v.get("end_line") or 0)
         loc = f"{v.get('file','')}:{a}" + (f"-{b}" if b and b != a else "")
         lines += ["", f"### `{loc}`", "", f"**Problem:** {v.get('what_is_wrong', '').strip()}"]
@@ -56,6 +56,8 @@ for s in ORDER:
             ext = os.path.splitext(v.get("file", ""))[1].lstrip(".")
             lines += ["", f"```{ext}", v["snippet"].rstrip(), "```"]
         lines += ["", f"**Fix:** {v.get('what_to_do', '').strip()}", "", f"(candidate: {', '.join(v.get('candidates') or [])})"]
+        if i < len(group) - 1:
+            lines += ["", "---"]
 open(out, "w").write("\n".join(lines) + "\n")
 print("\n".join(lines))
 print(f"\nsaved: {out}", file=sys.stderr)
