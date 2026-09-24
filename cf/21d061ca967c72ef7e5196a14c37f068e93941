@@ -1,0 +1,18 @@
+nvim/.config/nvim/lazy-lock.json
+  h_2dddd97a32d599 3,5,7-8,10-15,17-19,21-23,25-26,30
+nvim/.config/nvim/lua/plugins/formatter.lua
+  h_2dddd97a32d599 15-26
+nvim/.config/nvim/lua/plugins/lsp-config.lua
+  h_2dddd97a32d599 60-79,96,98
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cf21d061ca967c72ef7e5196a14c37f068e93941",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
