@@ -1,0 +1,21 @@
+claude-skills/.config/opencode/skills/final-code-review-v1/prompts/report-format.md
+  s_885f3cac54de99::t_c5ee22a10c9b8e 40
+claude-skills/.config/opencode/skills/final-code-review-v1/scripts/assemble-report.py
+  s_885f3cac54de99::t_e24035899eef8e 46,59-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4d9c4758240f61f6f42d975f321e9cf327a4d455",
+  "prompts": {},
+  "sessions": {
+    "s_885f3cac54de99": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4679f6c8-5b7e-47ba-9dd2-9526c3fcc8c9",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
