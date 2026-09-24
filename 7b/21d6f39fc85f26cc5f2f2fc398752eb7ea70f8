@@ -1,0 +1,16 @@
+install.sh
+  h_2dddd97a32d599 1-6
+tmux/.tmux.conf
+  h_2dddd97a32d599 1-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7b21d6f39fc85f26cc5f2f2fc398752eb7ea70f8",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
