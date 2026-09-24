@@ -1,0 +1,26 @@
+nvim/.config/nvim/lazy-lock.json
+  h_2dddd97a32d599 7,16,21
+nvim/.config/nvim/lua/my-special-vim-options.lua
+  h_2dddd97a32d599 29-34,53-57,67-87
+nvim/.config/nvim/lua/plugins/formatter.lua
+  h_2dddd97a32d599 1-49
+nvim/.config/nvim/lua/plugins/linting.lua
+  h_2dddd97a32d599 1-64
+nvim/.config/nvim/lua/plugins/lsp-config.lua
+  h_2dddd97a32d599 4-7,9-29,37-49,69-73,75
+nvim/.config/nvim/lua/plugins/none-ls.lua
+  h_2dddd97a32d599 1
+nvim/.config/nvim/lua/plugins/telescope.lua
+  h_2dddd97a32d599 2-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "50a5458e5c2eeaa6bbf8895cf144542a7a48c0df",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
