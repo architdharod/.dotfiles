@@ -1,0 +1,167 @@
+claude-skills/.config/opencode/skills/final-code-review-v1/SKILL.md
+  s_09f52221be3499::t_85de0a2d0677a7 3,19,47,50
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/absence-conflation.md
+  s_09f52221be3499::t_7175701c8a8bf9 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/accessibility.md
+  s_09f52221be3499::t_2d4b036054d921 5,58-59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/ambiguous-result-shapes.md
+  s_09f52221be3499::t_174f31300bb5b0 5,56
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/any-leakage.md
+  s_09f52221be3499::t_faa6a38cd25b37 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/authorization-checks.md
+  s_09f52221be3499::t_b6c89788147921 5,15,53-54
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/batch-failure-isolation.md
+  s_09f52221be3499::t_b3b0ae668ffc18 5,55
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/blast-radius.md
+  s_09f52221be3499::t_398e35e6a6afd1 5,58
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/ci-config-and-dependencies.md
+  s_09f52221be3499::t_8cb05d4fc78b48 5,62
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/closed-set-exhaustiveness.md
+  s_09f52221be3499::t_72684fb18a19bd 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/code-obviousness.md
+  s_09f52221be3499::t_fb303f20fb66bd 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/complexity-pushed-to-callers.md
+  s_09f52221be3499::t_20f13792e4072d 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/convoluted-control-flow.md
+  s_09f52221be3499::t_18c751e3186dca 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/data-clumps-and-long-parameter-lists.md
+  s_09f52221be3499::t_bacd8bc4a8260b 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/data-loading-wiring.md
+  s_09f52221be3499::t_6a2ec23f0c2f14 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/data-model-and-migrations.md
+  s_09f52221be3499::t_2cc01ebf36d1c7 5,58
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/dead-code-and-export-surface.md
+  s_09f52221be3499::t_ca9c159a414499 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/define-errors-out-of-existence.md
+  s_09f52221be3499::t_5ba8c1105724e0 5,55
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/dependency-direction.md
+  s_09f52221be3499::t_73b380540dd2ab 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/derived-state-and-effect-sync.md
+  s_09f52221be3499::t_5d02140bf5af89 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/divergent-change.md
+  s_09f52221be3499::t_216e061b05dc9d 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/docs-scope-and-durability.md
+  s_09f52221be3499::t_14acc711df9e75 5,61-62
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/duplicated-logic.md
+  s_09f52221be3499::t_8d0412efa7382c 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/e2e-selectors.md
+  s_09f52221be3499::t_6b2119582eb01b 5,56
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/error-messages-and-codes.md
+  s_09f52221be3499::t_74ac5e9acc62d2 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/error-reporting-hygiene.md
+  s_09f52221be3499::t_93f1778c5b142a 5,58-59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/exception-aggregation.md
+  s_09f52221be3499::t_fa7df7e02746c0 5,58
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/external-writes-and-retries.md
+  s_09f52221be3499::t_fe6959e8251fb2 5,58
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/feature-envy.md
+  s_09f52221be3499::t_bbe5c82be97270 5,55
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/file-and-code-organization.md
+  s_09f52221be3499::t_3df86462284843 5,63
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/guards-from-wrong-or-partial-sources.md
+  s_09f52221be3499::t_313154411e4a21 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/imprecise-types.md
+  s_09f52221be3499::t_99b5620fe987e6 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/incomplete-propagation.md
+  s_09f52221be3499::t_0a7ed42e0a9a83 5,56
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/information-leakage.md
+  s_09f52221be3499::t_a31c5bc5eccc5f 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/layer-abstraction-mismatch.md
+  s_09f52221be3499::t_d62333fa5dcf07 5,55
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/layout-robustness.md
+  s_09f52221be3499::t_c1d02e4eb869d2 5,56
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/magic-values.md
+  s_09f52221be3499::t_8bf889e5330e88 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/manual-memoization.md
+  s_09f52221be3499::t_bf1bee2e10e4ce 5,56
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/message-chains.md
+  s_09f52221be3499::t_8dce5a0b2d96a3 5,54
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/mirror-case-gaps.md
+  s_09f52221be3499::t_e3141771041cb0 5,57-58
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/missed-simplification.md
+  s_09f52221be3499::t_4abdc422d188b6 5,58
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/missing-test-cases.md
+  s_09f52221be3499::t_d2c4d9e38c66b0 5,64-65
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/missing-why-comment.md
+  s_09f52221be3499::t_04509b2dbe47c2 5,63
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/naming.md
+  s_09f52221be3499::t_3680b3962d24f3 5,64
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/needless-or-transient-comments.md
+  s_09f52221be3499::t_69c0dfd26af939 5,58
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/outcome-signaling.md
+  s_09f52221be3499::t_8daaa21e919e10 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/oversized-units.md
+  s_09f52221be3499::t_aac92809e396ac 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/performance.md
+  s_09f52221be3499::t_2e19a7394ba937 5,59,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/precedent-divergence.md
+  s_09f52221be3499::t_31a64a95ac542b 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/primitive-obsession.md
+  s_09f52221be3499::t_e00a2335a5b60b 5,62
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/project-rule-conformance.md
+  s_09f52221be3499::t_b35fc68fc58405 5,56
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/query-cache-and-keys.md
+  s_09f52221be3499::t_71fb8ddda82635 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/react-state-and-effects.md
+  s_09f52221be3499::t_1a27194ac53c5e 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/reinvented-library-feature.md
+  s_09f52221be3499::t_fc1b05a4531ca9 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/repeated-conditionals-on-type.md
+  s_09f52221be3499::t_da8843c03cb4a5 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/scope-and-requirements.md
+  s_09f52221be3499::t_aa012cb0914d1e 5,63
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/security-basics.md
+  s_09f52221be3499::t_bdce9c7233a746 5,62
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/shallow-abstractions.md
+  s_09f52221be3499::t_985f960c5edbcb 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/shared-ui-component-contracts.md
+  s_09f52221be3499::t_fd9f74da64dec0 5,57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/single-source-of-truth.md
+  s_09f52221be3499::t_ae9bdb600231d7 5,62
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/speculative-generality.md
+  s_09f52221be3499::t_9abc2b81b5a77f 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/state-transition-integrity.md
+  s_09f52221be3499::t_81662b3edc3f2a 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/strong-connascence.md
+  s_09f52221be3499::t_6d0da0f09a1e5c 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/temporal-decomposition.md
+  s_09f52221be3499::t_f13ae92c7a9f66 5,55
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/test-fixtures-and-setup.md
+  s_09f52221be3499::t_6c546dc535e381 5,56-57
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/test-wiring-and-layer.md
+  s_09f52221be3499::t_af66147b3e1c84 5,55
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/text-disagrees-with-code.md
+  s_09f52221be3499::t_9836006167654f 5,62
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/together-or-apart.md
+  s_09f52221be3499::t_17c8b4729cb15c 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/type-runtime-contradiction.md
+  s_09f52221be3499::t_24b7f47209a7d2 5,59
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/ui-state-fidelity.md
+  s_09f52221be3499::t_a59c3f8f6b2025 5,63
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/validation-boundaries.md
+  s_09f52221be3499::t_9de04ffee7ab60 5,62
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/value-comparison-pitfalls.md
+  s_09f52221be3499::t_d6ec2d50144f8e 5,56
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/weak-or-tautological-assertions.md
+  s_09f52221be3499::t_092158c4a8f3bc 5,60
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/writing-style.md
+  s_09f52221be3499::t_d51dbccea35c55 5,61
+claude-skills/.config/opencode/skills/final-code-review-v1/candidates/wrong-home.md
+  s_09f52221be3499::t_2cd7b40b32b7d5 5,65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "15396b5d9506b3c8db9699efbd422573f46fa50c",
+  "prompts": {},
+  "sessions": {
+    "s_09f52221be3499": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7708bd0a-08c5-4a6e-8b3f-963abb8d33fe",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
