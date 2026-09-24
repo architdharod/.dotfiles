@@ -1,0 +1,16 @@
+install.sh
+  h_2dddd97a32d599 2,4-9,11-53
+nvim/.config/nvim/README.md
+  h_2dddd97a32d599 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cabc8de466878b436af77c19f69d776ce7eac52f",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
