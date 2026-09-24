@@ -1,0 +1,20 @@
+claude-skills/.config/opencode/skills/adversarial-tests/SKILL.md
+  h_2dddd97a32d599 1-126
+claude-skills/.config/opencode/skills/grill-with-docs/SKILL.md
+  h_2dddd97a32d599 1-20
+claude-skills/.config/opencode/skills/thermo-nuclear-code-quality-review/SKILL.md
+  h_2dddd97a32d599 1-192
+claude-skills/.config/opencode/skills/zoom-out/SKILL.md
+  h_2dddd97a32d599 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c754e18ad674bf6eafa8fd2dc5b8b17779ed3512",
+  "prompts": {},
+  "humans": {
+    "h_2dddd97a32d599": {
+      "author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
