@@ -1,0 +1,19 @@
+.gitignore
+  s_09f52221be3499::t_d5167e7e1b4354 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5597163986983700c6ff32b47275030e4ee1b71d",
+  "prompts": {},
+  "sessions": {
+    "s_09f52221be3499": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7708bd0a-08c5-4a6e-8b3f-963abb8d33fe",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "archit dharod <archi.parchi7@gmail.com>"
+    }
+  }
+}
