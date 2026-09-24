@@ -38,15 +38,15 @@ else:
 if unreadable:
     lines.append(f"Warning: {unreadable} verdict file(s) could not be read. Rerun those verifiers before trusting this report.")
     print(f"WARNING: {unreadable} unreadable verdict file(s)", file=sys.stderr)
-    for s in ORDER:
-        group = sorted((v for v in confirmed if v["severity"] == s), key=lambda v: (v.get("file", ""), int(v.get("start_line") or 0)))
-        if not group:
-            continue
-        lines += ["", f"## {TITLE[s]}"]
-        for v in group:
-            a, b = int(v.get("start_line") or 0), int(v.get("end_line") or 0)
-            loc = f"{v.get('file','')}:{a}" + (f"-{b}" if b and b != a else "")
-            lines += ["", f"### `{loc}`", v.get("what_is_wrong", "").strip(), v.get("what_to_do", "").strip(), f"(candidate: {', '.join(v.get('candidates') or [])})"]
+for s in ORDER:
+    group = sorted((v for v in confirmed if v["severity"] == s), key=lambda v: (v.get("file", ""), int(v.get("start_line") or 0)))
+    if not group:
+        continue
+    lines += ["", f"## {TITLE[s]}"]
+    for v in group:
+        a, b = int(v.get("start_line") or 0), int(v.get("end_line") or 0)
+        loc = f"{v.get('file','')}:{a}" + (f"-{b}" if b and b != a else "")
+        lines += ["", f"### `{loc}`", v.get("what_is_wrong", "").strip(), v.get("what_to_do", "").strip(), f"(candidate: {', '.join(v.get('candidates') or [])})"]
 open(out, "w").write("\n".join(lines) + "\n")
 print("\n".join(lines))
 print(f"\nsaved: {out}", file=sys.stderr)
